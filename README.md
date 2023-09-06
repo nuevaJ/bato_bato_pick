@@ -3,6 +3,7 @@
 This project only requires first the full layout of the project using HTML and JS, no CSS involve.
 
 Update:
+
     ∙ The script grasp the overall functionality of the game, such as:
         ◦ The system will determine the user input, match the conditions whether the user wins, lose, or tied with the computer, same goes with computer.
         ◦ Random choice of computer.
