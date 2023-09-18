@@ -10,6 +10,8 @@ Update:
         ◦ Display the result.
     
     ∙ Next things to accomplish are:
-        ◦ Include an interface for the game.
-        ◦ The game should end after the user or the computer reach five (5) points respectively.
-        ◦ Remove the user prompt, make it easier to pick.
+        ◦ Include an interface for the game. (In progress)
+        ◦ The game should end after the user or the computer reach five (5) points respectively. (Done)
+        ◦ Remove the user prompt, make it easier to pick. (Done)
+        ◦ A clickable button for player to choose whether "Rock", "Paper", or "Scissor". (Done)
+        ◦ Result for who wins on the game. (Done)
