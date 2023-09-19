@@ -48,8 +48,13 @@ const restart = () => {
     computerScoreResult.textContent = `${computerScore}`; //siyempre kuhain yung declared na score dito sa scope na to
     playerScoreResult.textContent = `${playerScore}`;
 
-    allButton.forEach(button => button.addEventListener("click", whenClicked)); // maging clickable then loop ulit sa whenCLicked func
-    restartButton.parentNode.removeChild(restartButton);
+    allButton.forEach(button => button.addEventListener("click", whenClicked)); // maging clickable ulit then loop ulit sa whenCLicked func
+    
+    //thank you for this line of code - chatgpt!
+    const existingRestartButton = document.querySelector("#restart button");
+    if (existingRestartButton) {
+        restartButton.removeChild(existingRestartButton);
+    }
 }
 
 //para sa replay button
