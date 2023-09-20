@@ -101,7 +101,7 @@ const playGame = (playerSelection, computerSelection) => {
 }
 
 const whenClicked = (e) => {
-    let playerSelection = e.target.textContent;
+    let playerSelection = e.target.id;
     let computerSelection = getRandomComputerPicked();
 
     playGame(playerSelection, computerSelection);
