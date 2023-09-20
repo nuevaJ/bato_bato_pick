@@ -1,38 +1,47 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@800&family=Shrikhand&display=swap');
+      </style>
+      
     <link rel="stylesheet" href="styles.css">
     <title>Bato-Bato-Pick</title>
 </head>
 <body>
-    
-    <div class="container">
-        <div class="rockSelection" id="rockSelection">
-            <button class="rock">ROCK</button>
-        </div>
-    
-        <div class="paperSelection" id="paperSelection">
-            <button class="paper">PAPER</button>
-        </div>
 
-        <div class="scissorSelection" id="scissorSelection">
-            <button class="scissor">SCISSOR</button>
-        </div>
+    <div class="header">
+        <p>ROCK PAPER SCISSOR</p>
     </div>
     
+    <div class="container">
+        <div class="selection">
+           <button><img id="ROCK" src="images/rock.png" alt="paper"></button>
+        </div>
+    
+        <div class="selection">
+            <button><img id="PAPER" src="images/paper.png" alt="paper"></button>
+        </div>
+
+        <div class="selection">
+            <button><img id="SCISSOR" src="images/scissor.png" alt="scissor"></button>
+        </div>
+    </div>
+
     <div class="result" id="result">
         
     </div>
-
+    
     <div class="container-result">
         <div id="playerResult">
-            Player
+            <p id="text">Player</p>
             <p id="pScore">0</p>
         </div>
         <div id="scoreResult">
-            Computer
+            <p id="text">Computer</p>
             <p id="cScore">0</p>
         </div>
     </div>
