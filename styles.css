@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ced4da;
+}
+
+.header{
+    height: 100%;
+    background-color: #e9ecef;
+}
+
+.header > p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container {
+   display: flex;
+   gap: 250px;
+   justify-content: center;
+   align-items: center;
+   height: 50vh;
+}
+
+.container button{
+    border: none;
+    appearance: none;
+    cursor: pointer;
+    background-color: inherit;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.container button:hover{
+    top: -10px;
+}
+
+.selection img{
+    height: 200px;
+    width: 150px;
+}
+
+.result{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+}
+
+.container-result{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.container-result #text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.container-result #pScore, 
+.container-result #cScore{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 0,400;
+}
+
+#gameResult{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#gameResult p {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+#gameResult .restart{
+    margin-top: 20px;
+    
+}
+
+.restart button{
+    font-size: large;
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+}
